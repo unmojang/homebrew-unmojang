@@ -1,18 +1,10 @@
-# Unmojang Homebrew Tap
+# homebrew-unmojang
 
-## To install PollyMC
+[Homebrew](https://brew.sh) tap for unmojang projects
+
+## To install Fjord Launcher
 
 ```
 brew tap unmojang/homebrew-unmojang
-brew install --cask pollymc
+brew install --cask fjordlauncher
 ```
-
-## How do I install these formulae?
-
-`brew install unmojang/homebrew-unmojang/<formula>`
-
-Or `brew tap unmojang/homebrew-unmojang` and then `brew install <formula>`.
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
