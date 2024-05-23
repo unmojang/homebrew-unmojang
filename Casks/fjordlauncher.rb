@@ -22,9 +22,9 @@ cask "fjordlauncher" do
   app "Fjord Launcher.app"
 
   zap trash: [
-    "~/Library/Application Support/FjordLauncher/metacache",
     "~/Library/Application Support/FjordLauncher/FjordLauncher-*.log",
     "~/Library/Application Support/FjordLauncher/fjordlauncher.cfg",
+    "~/Library/Application Support/FjordLauncher/metacache",
     "~/Library/Preferences/org.fjordlauncher.FjordLauncher.plist",
     "~/Library/Saved Application State/org.fjordlauncher.FjordLauncher.savedState",
   ]
