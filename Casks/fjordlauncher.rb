@@ -13,7 +13,7 @@ cask "fjordlauncher" do
   end
 
   name "Fjord Launcher"
-  desc "Minecraft launcher"
+  desc "Prism Launcher fork with support for alternative auth servers"
   homepage "https://github.com/unmojang/FjordLauncher"
 
   auto_updates true
