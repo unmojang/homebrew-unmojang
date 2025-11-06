@@ -24,9 +24,9 @@ cask "fjordlauncher" do
   binary "#{appdir}/Fjord Launcher.app/Contents/MacOS/fjordlauncher"
 
   zap trash: [
-    "~/Library/Application Support/FjordLauncher/metacache",
     "~/Library/Application Support/FjordLauncher/FjordLauncher-*.log",
     "~/Library/Application Support/FjordLauncher/fjordlauncher.cfg",
+    "~/Library/Application Support/FjordLauncher/metacache",
     "~/Library/Preferences/org.fjordlauncher.FjordLauncher.plist",
     "~/Library/Saved Application State/org.fjordlauncher.FjordLauncher.savedState",
   ]
