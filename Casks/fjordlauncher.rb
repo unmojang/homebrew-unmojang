@@ -18,7 +18,7 @@ cask "fjordlauncher" do
   desc "Prism Launcher fork with support for alternative auth servers"
   homepage "https://github.com/unmojang/FjordLauncher"
 
-  auto_updates true
+  auto_updates false
 
   app "Fjord Launcher.app"
   binary "#{appdir}/Fjord Launcher.app/Contents/MacOS/fjordlauncher"
