@@ -23,6 +23,7 @@ cask "fjordlauncher" do
   homepage "https://github.com/unmojang/FjordLauncher"
 
   auto_updates false
+  depends_on :macos
 
   app "Fjord Launcher.app"
   binary "#{appdir}/Fjord Launcher.app/Contents/MacOS/fjordlauncher"
